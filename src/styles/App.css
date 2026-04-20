@@ -1,1 +1,23 @@
-
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.tooltip{
+  position: relative;
+  margin: 60px 20px;
+}
+.tooltiptext{
+  background-color: red;
+  position: absolute;
+  top: -45px;
+  display: flex;
+  justify-content: center;
+  left: 25px;
+  max-width: 120px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: max-content;
+}
